@@ -100,3 +100,42 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
 
 https://www.youtube.com/@NetNinja/playlists
+
+
+
+Block level elements:
+- si allarga il più possibile (NOOO la riprendiamo in CSS)
+- impilati in verticale (uno sotto l'altro)
+body
+div divisione della pagina (una parte della pagina - contenitore per eccellenza degli elementi block)
+h1, h2, ..., h6
+p
+ol li   ordered list - list item
+ul li   unordered list - list item
+
+Inline level elements:
+- sono larghi tanto quanto strettamente necessario a contenere il proprio contenuto
+- impilati in orizzontale (uno di fianco all'altro)
+span (contenitore per eccellenza degli elementi inline)
+a
+img è un self closing tag
+
+
+Regole per elementi HTML innestati (nested):
+1) un elemento block può contenere al suo interno (elementi utili per definire il layout):
+    - altri elementi block
+    - altri elementi inline
+    - puro testo
+2) un elemento inline può contenere al suo interno (elementi utili per contente testo):
+    - altri elementi inline
+    - puro testo
+
+Eccezione alla regola:
+gli elementi block h1, h2, ..., h6, p non possono contenere al loro interno altri elementi block
+
+Tra elementi innestati nascono delle relazioni parent-child
+
+
+
+
+self closing tags cioè elementi html che non potendo avere del contenuto non hanno tag di chiusura
