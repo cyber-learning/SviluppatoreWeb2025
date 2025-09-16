@@ -64,6 +64,9 @@ Sintassi elemento HTML:
 Per commentare su windows
 alt + shift + a
 
+Per commentare su mac
+command + shift + 7
+
 Heading tag titoli aventi ordine di importanza decrescente:
 h1
 h2
@@ -74,7 +77,7 @@ h6
 Paragraph
 p
 
-Link
+Link (anchor tag)
 a   attributo href  hypertext reference
 
 
@@ -155,3 +158,9 @@ Tra elementi innestati nascono delle relazioni parent-child
 
 
 self closing tags cioè elementi html che non potendo avere del contenuto non hanno tag di chiusura
+
+
+Caratteri di escape
+https://mateam.net/html-escape-characters/
+<p>Il tag &lt;div&gt; permette di ...</p>
+
