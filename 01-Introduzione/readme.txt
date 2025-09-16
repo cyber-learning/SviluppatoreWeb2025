@@ -57,6 +57,11 @@ key1=value1 & key2=value2 & key3=value3
 
 
 
+
+
+
+
+
 Sintassi elemento HTML:
 <tagname attribute1="value1" attribute2="value2" attribute3="value3">content</tagname>
 
@@ -101,10 +106,8 @@ che punta al vostro account Instagram o TikTok o entrambi usando gli heading, pa
 # Esercizio
 Creare un sito formato da più pagine html oltre alla pagina index.html
 
-
-
 # Esercizio - AboutMe - v2
-Modificare l'esercizio precedente AboutMe aggingendo una immagine presente sul vostro PC
+Modificare l'esercizio precedente AboutMe aggiungendo una immagine presente sul vostro PC
 
 # Esercizio
 Creare una immagine cliccabile che rimanda ad una pagina html
@@ -132,12 +135,18 @@ p
 ol li   ordered list - list item
 ul li   unordered list - list item
 
+
+
+
 Inline level elements:
 - sono larghi tanto quanto strettamente necessario a contenere il proprio contenuto
 - impilati in orizzontale (uno di fianco all'altro)
 span (contenitore per eccellenza degli elementi inline)
 a
 img è un self closing tag
+
+
+
 
 
 Regole per elementi HTML innestati (nested):
@@ -150,7 +159,7 @@ Regole per elementi HTML innestati (nested):
     - puro testo
 
 Eccezione alla regola:
-gli elementi block h1, h2, ..., h6, p non possono contenere al loro interno altri elementi block
+gli elementi block h1, h2, ..., h6, p NON possono contenere al loro interno altri elementi block
 
 Tra elementi innestati nascono delle relazioni parent-child
 
