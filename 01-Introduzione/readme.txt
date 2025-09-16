@@ -31,20 +31,27 @@ WWW:
 
 Con il termine risorsa si intende una pagina HTML, una immagine, un file qualsiasi
 L'URL permette di conoscere la collocazione nella rete di una risorsa ad esempio:
-- https://it.wikipedia.org:443/wiki/Ciao
+- https://it.wikipedia.org/wiki/Ciao
+
 - http://localhost:3000/index.html
+- http://127.0.0.1:3000/index.html
 - http://127.0.0.1:8080/index.html
+
 - http://www.youtube.com:80
-- https://www.youtube.com/watch  ?   v=k9ynZnEBtvw & list=RDk9ynZnEBtvw &   start_radio=1
+- https://www.youtube.com:443/watch  ?   v=k9ynZnEBtvw & list=RDk9ynZnEBtvw &start_radio=1
 - eric.cartman@gmail.com
 
 Un dominio è praticamente un indirizzo IP
+protocollo://dominio:porta/path
+
+
+
 protocollo://username:password@dominio:porta/path?queryString
 
 Il path è il percorso del file
 
 La queryString serve per "filtrare" i risultati di ricerca
-key1=value1&key2=value2&key3=value3
+key1=value1 & key2=value2 & key3=value3
 
 
 
@@ -90,6 +97,15 @@ che punta al vostro account Instagram o TikTok o entrambi usando gli heading, pa
 
 # Esercizio
 Creare un sito formato da più pagine html oltre alla pagina index.html
+
+
+
+# Esercizio - AboutMe - v2
+Modificare l'esercizio precedente AboutMe aggingendo una immagine presente sul vostro PC
+
+# Esercizio
+Creare una immagine cliccabile che rimanda ad una pagina html
+
 
 
 Riferimenti
