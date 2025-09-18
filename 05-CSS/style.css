@@ -1,4 +1,93 @@
-h2 {
-    /* background-color: rgb(0, 0, 255); */
+/*
+p {
+    background-color: blue;
+    background-color: rgb(0, 0, 255);
     background-color: #0000FF;
+    color: #5a5a5a;
+
+    la proprietà font-family richiede una lista di font di fallback (separati da ,)
+    font-family: "Zalando Sans Expanded", Arial, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 24px;
+    text-align: justify;
 }
+
+a {
+    color: #ff9800;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+NOOOOOOO
+div {
+    background-image: url("https://www.amoreaquattrozampe.it/wp-content/uploads/2019/04/cane-simpatico-compressed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-image: linear-gradient(130deg,rgba(232, 12, 148, 1) 0%, rgba(23, 30, 212, 1) 100%);
+}
+
+div {
+    background-color: red;
+    opacity: 0.4;
+}
+*/
+
+
+/*
+p {
+    color: red;
+    color: blue;
+}
+*/
+
+/*
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+*/
+
+
+/*
+* {
+    font-family: "Zalando Sans Expanded", Arial, sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 100;
+}
+
+.cit {
+    font-style: italic;
+}
+
+.red-text {
+    color: red;
+}
+*/
+
+/*
+.taraBello {
+    color: red;
+}
+
+p {
+    la keyword !important (raggira il conflitto) distruggendo la specificità dei selettori
+    color: blue !important;
+}
+*/
