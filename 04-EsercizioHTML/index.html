@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     
-    <nav class="navbar">
+    <nav>
         <ul>
             <li><a href="/" class="brand">Giallo Zafferano</a></li>
             <li><a href="">Ricette</a></li>
@@ -23,22 +29,22 @@
     <main>
         <section>
             <h3>Suggerite in base alle tue ricerche</h3>
-            <article>
+            <article class="recipe">
                 <img src="https://picsum.photos/400/300" alt="">
                 <h2>Pasta fresca all'uovo</h2>
-                <span>rating: 4.3</span>
+                <span class="rating">rating: 4.3</span>
             </article>
 
-            <article>
+            <article class="recipe">
                 <img src="https://picsum.photos/400/300" alt="">
                 <h2>Carbonara alla romana</h2>
-                <span>rating: 4.4</span>
+                <span class="rating">rating: 4.4</span>
             </article>
         </section>
 
         <section>
             <h3>I nostri speciali</h3>
-            <article>
+            <article class="recipe">
                 <header>
                     <img src="https://picsum.photos/400/300" alt="">
                     <h2>Funghi fritti</h2>
@@ -54,32 +60,33 @@
                     
                 </aside>
                 <footer>
-                    <span>rating: 4.4</span>
+                    <span class="rating">rating: 4.4</span>
                     <span>commenti: 143</span>
                 </footer>
             </article>
 
-            <article>
+            <article class="recipe">
                 <img src="https://picsum.photos/400/300" alt="">
                 <h2>Funghi trifolati</h2>
-                <span>rating: 4.1</span>
-                
+                <span class="rating">rating: 4.1</span>
             </article>
         </section>
     </main>
 
     <aside>
-        <article>
+        <article class="forYou">
             <h4>Perchè i funghi fritti fanno bene</h4>
             <p>dsadsad</p>
             <a href="">Scopri di più</a>
         </article>
-        <article>
+        
+        <article class="forYou">
             <h4>Natale terminato? Palestra assicurato</h4>
             <p>Sconto del 20% con giallo zafferano</p>
             <a href=""></a>
         </article>
-        <article>
+
+        <article class="forYou">
             <h4>Non hai tempo?</h4>
             <p>Acquista il preparato</p>
             <a href=""></a>

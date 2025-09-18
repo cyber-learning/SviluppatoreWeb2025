@@ -1,0 +1,43 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+
+nav {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+h2 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+h3 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+h4 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+a {
+    color: #ff9800;
+}
+
+.recipe {
+    background-color: white;
+}
+
+.rating {
+    color: #b0b0b0;
+}
+
+.forYou {
+    background-color: #ff9800;
+}

@@ -19,3 +19,10 @@ Questa pagina deve presentare una form che richieda le seguenti informazioni:
 
 
 
+
+
+# Esercizio CSS
+Prendendo ispirazione da un blog di ricette già esistente (ad esempio Giallo Zafferano):
+- utilizzare due font (presi da Google Fonts - uno per tutti gli elementi ed uno per gli headings tag)
+- applicare dei colori (sia sul il testo sia sul background dell'elemento)
+- prestando particolare attenzione alla specificità dei selettori!

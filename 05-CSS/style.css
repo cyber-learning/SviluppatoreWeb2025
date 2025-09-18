@@ -91,3 +91,117 @@ p {
     color: blue !important;
 }
 */
+
+/*
+Ereditarietà proprietà (solo testo e liste) applicate all'elemento parent sono ereditate agli elementi discendenti
+nav {
+    color: red;
+}
+
+.yellowText {
+    color: yellow;
+}
+*/
+
+
+/*
+p {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 50%;
+    height: 50%;
+
+    background-color: red;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+
+    background-color: blue;
+}
+*/
+
+/*
+p {
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+
+    background-color: blue;
+}
+*/
+
+/*
+.container {
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+*/
+
+
+/* 
+p {
+    margin: 48px 24px;
+
+        border è una shorthand per
+
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+
+        Per border-style i valori interessanti sono:
+        none
+        solid   linea continua
+        double  doppia linea continua
+
+    border: 6px double red;
+
+    padding-top: 48px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+
+    shorthand
+    padding: 48px 32px 24px 12px;
+    padding: 48px 24px;         y x
+    padding: 48px;
+
+    width: 500px;
+    height: 200px;
+    background-color: red;
+} 
+*/
+
+/*
+p {
+    margin: 48px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 36px -5px rgba(0, 0, 0, 0.6);
+    border: 2px solid red;
+    padding: 48px;
+    background-color: red;
+}
+*/
+
+body {
+    background-color: #242424;
+}
+
+.container {
+    margin: 24px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 36px -5px rgba(255, 255, 255, 0.6);
+    /* border: 1px solid rgb(206, 206, 206); */
+    padding: 48px;
+
+    /* background-color: rgb(86, 86, 86); */
+    color: white;
+}

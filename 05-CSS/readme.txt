@@ -78,9 +78,26 @@ text-transform i valori interessanti sono:
 
 
 
+Unità di misura assolute (fisse):
+px
+mm
 
-# Esercizio
-Prendendo ispirazione da un blog di ricette già esistente (ad esempio Giallo Zafferano):
-- utilizzare due font (presi da Google Fonts - uno per tutti gli elementi ed uno per gli headings tag)
-- applicare dei colori (sia sul il testo sia sul background dell'elemento)
-- prestando particolare attenzione alla specificità dei selettori!
+Unità di misura relative per i layout (a qualcos'altro):
+-   % sempre rispetto alla width dell'elemento parent 
+    (eccezione se utilizzo per la height dell'elemento child -> in questo caso % si riferisce alla height dell'elemento parent)
+-   vw vh rispetto alla viewport width e height
+
+
+Unità di misura relative per i font (a qualcos'altro):
+DOMANI
+
+
+Box model un insieme di proprietà CSS utili per descrivere
+quanto spazio occupa un elemento HTML
+
+
+References:
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+https://cssgradient.io/
+https://html-css-js.com/css/generator/box-shadow/
+https://getcssscan.com/css-box-shadow-examples
