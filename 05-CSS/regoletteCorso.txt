@@ -1,0 +1,17 @@
+La lezione inizia alle 09.00 (max 5 minuti di tolleranza)
+La lezione inizia alle 14.00 (max 5 minuti di tolleranza)
+Di ritorno dalle pause (max 5 minuti di tolleranza)
+
+Dalle 09.00 alle 09.30 momento domande.
+Dalle 17.30 alle 18.00 momento domande.
+
+Vi segnate le domande da parte.
+
+Riferimenti:
+    Per chi muove i primi passi (w3school):
+    https://www.w3schools.com/html/default.asp
+    https://www.w3schools.com/css/default.asp
+    https://www.w3schools.com/js/default.asp
+
+    Tutorial ufficiale front-end mdn:
+    https://developer.mozilla.org/en-US/docs/Web
