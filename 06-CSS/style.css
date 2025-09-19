@@ -1,0 +1,179 @@
+/* CSS Reset - elimino il CSS di default applicato dal browser  */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/*
+p {
+    border: 10px solid blue;
+    padding: 48px;
+    width: 100%;   width = border-width-left + padding-left + content + padding-right + border-right-width
+    background-color: red;
+}
+*/
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-bottom: 48px;
+    border: 10px solid blue;
+    padding: 48px;
+    width: 100%;
+    background-color: red;
+}
+*/
+
+/* 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid blue;
+}
+
+p {
+    margin-left: 25%;
+    width: 50%; condizione necessaria -> width fissata dell'elemento child
+
+
+    margin: 0 auto;
+    width: 300px; condizione necessaria -> width fissata dell'elemento child 
+    background-color: red;
+}
+*/
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    max-width: 800px;
+    min-width: 400px;
+    width: 100%;
+    background-color: red;
+}
+*/
+
+/* 
+span {
+    margin: 48px;
+    border: 2px solid blue;
+    padding: 48px;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+*/
+
+/*
+per eliminare lo style di default sui buttoni
+button {
+    border: none;
+    background-color: transparent;
+}
+*/
+
+/*
+body {
+    padding: 24px;
+}
+
+.btn-pill {
+    display: inline-block;
+
+    border-radius: 24px;
+    border: none;
+    padding: 12px 24px;
+
+    background-color: rgb(255, 177, 31);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+*/
+
+/*
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    height: 400px;
+
+    background-color: blue;
+}
+
+.item {
+    padding: 24px;
+    border: 2px solid red;
+    color: white;
+}
+*/
+
+/*
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 600px;
+    background-color: blue;
+}
+
+.item {
+    padding: 24px;
+    border: 2px solid red;
+    color: white;
+}
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: blue;
+}
+
+.itemLeft {
+    width: 60%;
+
+    padding: 24px;
+    border: 2px solid red;
+    color: white;
+}
+
+.itemRight {
+    width: 40%;
+
+    padding: 24px;
+    border: 2px solid red;
+    color: white;
+}
